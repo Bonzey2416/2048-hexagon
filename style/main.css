@@ -8,6 +8,8 @@
   font-size: 18px;
   font-weight: 300;
   font-variation-settings: 'wght' 1000, 'GRAD' 1000;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.05em;
 }
 body {
   margin: 80px 0;
