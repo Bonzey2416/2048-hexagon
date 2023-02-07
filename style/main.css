@@ -4,8 +4,10 @@
   padding: 0;
   background: #faf8ef;
   color: #776e65;
-  font-family:"Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family:"SF Rounded", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
+  font-weight: 300;
+  font-variation-settings: 'wght' 1000, 'GRAD' 1000;
 }
 body {
   margin: 80px 0;
@@ -444,7 +446,7 @@ hr {
 }
 @media screen and (max-width: 520px) {
   .tile.tile-1024 .tile-inner {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 .tile.tile-2048 .tile-inner {
@@ -455,7 +457,7 @@ hr {
 }
 @media screen and (max-width: 520px) {
   .tile.tile-2048 .tile-inner {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 .tile.tile-super .tile-inner {
@@ -465,7 +467,7 @@ hr {
 }
 @media screen and (max-width: 520px) {
   .tile.tile-super .tile-inner {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 @-webkit-keyframes appear {
