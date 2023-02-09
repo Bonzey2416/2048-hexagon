@@ -9,7 +9,7 @@
   font-weight: 300;
   font-variation-settings: 'wght' 1000, 'GRAD' 1000;
   font-variant-numeric: tabular-nums;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
 }
 body {
   margin: 80px 0;
@@ -383,6 +383,10 @@ hr {
   z-index: 10;
   font-size: 55px;
 }
+.tile.tile-1 .tile-inner {
+  background: #eeeeee;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+}
 .tile.tile-2 .tile-inner {
   background: #eee4da;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
@@ -462,14 +466,47 @@ hr {
     font-size: 18px;
   }
 }
-.tile.tile-super .tile-inner {
+.tile.tile-4096 .tile-inner {
   color: #f9f6f2;
-  background: #3c3a32;
+  background: #ed922e;
+  box-shadow: 0 0 30px 10px rgba(243, 183, 116, 0.66667), inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  font-size: 35px;
+}
+@media screen and (max-width: 520px) {
+  .tile.tile-2048 .tile-inner {
+    font-size: 18px;
+  }
+}
+.tile.tile-8192 .tile-inner {
+  color: #f9f6f2;
+  background: #ed622e;
+  box-shadow: 0 0 30px 10px rgba(243, 151, 116, 0.77778), inset 0 0 0 1px rgba(255, 255, 255, 0.46667);
+  font-size: 35px;
+}
+@media screen and (max-width: 520px) {
+  .tile.tile-8192 .tile-inner {
+    font-size: 18px;
+  }
+}
+.tile.tile-16384 .tile-inner {
+  color: #f9f6f2;
+  background: #ed322e;
+  box-shadow: 0 0 30px 10px rgba(243, 119, 116, 0.88889), inset 0 0 0 1px rgba(255, 255, 255, 0.53333);
   font-size: 30px;
 }
 @media screen and (max-width: 520px) {
-  .tile.tile-super .tile-inner {
+  .tile.tile-16384 .tile-inner {
     font-size: 15px;
+  }
+}
+.tile.tile-super .tile-inner {
+  color: #f9f6f2;
+  background: #3c3a32;
+  font-size: 25px;
+}
+@media screen and (max-width: 520px) {
+  .tile.tile-super .tile-inner {
+    font-size: 12px;
   }
 }
 @-webkit-keyframes appear {
