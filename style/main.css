@@ -883,6 +883,7 @@ hr {
   html, body {
     background: #161310;
     color: #f9f6f2;
+    font-variation-settings: 'wght' 1000, 'GRAD' 950;
   }
   
   a {color: #f9f6f2;}
