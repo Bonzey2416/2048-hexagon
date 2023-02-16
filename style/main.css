@@ -877,3 +877,12 @@ hr {
     margin-top: 30px !important;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background: #161310;
+    color: #f9f6f2;
+  }
+  
+  a {color: #f9f6f2;}
+}
